@@ -1,0 +1,11 @@
+[package]
+name = "sorted_vec"
+version = "0.1.0"
+authors = ["Diggory Hardy <git@dhardy.name>"]
+
+[features]
+default = ["rustc-serialize"]
+
+[dependencies]
+
+rustc-serialize = { version = "*", optional = true }
